@@ -62,7 +62,13 @@ class LeftDrawer extends StatelessWidget {
                   ));
             },
           ),
-// TODO: Buat ListTile baru untuk ke halaman melihat news
+          ListTile(
+            leading: const Icon(Icons.newspaper),
+            title: const Text('News List'),
+            onTap: () {
+              //
+            },
+          ),
         ],
       ),
     );
